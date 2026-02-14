@@ -1,0 +1,22 @@
+
+
+body {
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.app-body{
+ /* border: solid 2px blue;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  row-gap: 60px;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+
+.about-me{
+margin:50px;
+}

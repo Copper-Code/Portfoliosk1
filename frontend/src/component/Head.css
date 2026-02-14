@@ -1,0 +1,41 @@
+:root{
+    --primary-color:#2563EB;
+}
+.profile{
+    width: 30vw;
+    max-width: 400px;
+    min-width: 150px;
+    border-radius: 50%;
+}
+
+.header{
+    padding:50px;
+
+  background-color: #ffffff;
+}
+.nickname{
+     color: var(--primary-color)
+}
+.namefont{
+     font-size: clamp(28px, 6vw, 90px);
+
+}
+.resume{
+    border-radius:50px;
+    margin-top:10px;
+}
+.endhead{
+     background-color: red;
+    width: 80%;
+    height: 30px;
+    border-top-right-radius: 35px;
+    padding-top: 5px;
+    padding-left: 20px;
+    bottom: 0;
+    left: 0;
+    
+}
+.introfont{
+    color: var(--primary-color);
+    font-weight:700;
+}

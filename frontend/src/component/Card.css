@@ -1,0 +1,44 @@
+
+.card-project{
+width: 18rem;
+height: 360px;
+  border-radius: 15px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    
+}
+.CardSkill {
+  height: 320px;
+  width: 18rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+
+
+}
+.imageCard {
+  margin: 20px;
+  width: 100%; /* ให้กว้างเต็มพื้นที่ของ Container ที่มันอยู่ */
+  max-width: 250px; /* จำกัดความกว้างสูงสุดไม่ให้ใหญ่เกินไปบนจอคอม */
+  aspect-ratio: 16 / 9; /* กำหนดสัดส่วนภาพให้คงที่เสมอ (เช่น 16:9) */
+  object-fit: cover; /* ให้ภาพเติมเต็มพื้นที่โดยไม่เสียสัดส่วน */
+  display: block; /* ป้องกันช่องว่างด้านล่างของ inline elements */
+  border-radius: 10px;
+}
+
+.imageskill {
+  margin: 10px;
+  max-height: 60px;
+  width: 100%;
+  max-width: 150px;
+  width: auto;
+  objectfit: cover;
+  border-radius: 10px;
+}
+.titleskill {
+  background-color: blue;
+  color: #fff;
+  margin-button: 10px;
+}

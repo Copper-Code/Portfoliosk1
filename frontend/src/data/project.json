@@ -1,0 +1,50 @@
+{
+    "projects":[
+        {
+        "id":1,
+        "Name":"เว็บแนะนำอนิเมะ Demon Slayer Version 1",
+        "Title":"เว็บแนะนำอนิเมะเรื่อง Demon Slayer",
+         "TechStack":"HTML, CSS, Javascript, JSON",
+         "Url_Web":"https://demonslayer-xu19.onrender.com",
+         "Github":"https://github.com/Copper-Code/DemonSlayer.git",
+         "image":"/DemonV1.png"
+    },
+     {
+        "id":2,
+        "Name":"เว็บแนะนำอนิเมะ Demon Slayer Version 2",
+        "Title":"เว็บแนะนำอนิเมะเรื่อง Demon Slayer เวอร์ชั่น 2",
+         "TechStack":"HTML, CSS, Javascript, React",
+         "Url_Web":"https://demon-slayer-react.onrender.com",
+         "Github":"https://github.com/Copper-Code/Demon-Slayer-React.git",
+         "image":"/DemonV2.png"
+    },{
+        "id":3,
+        "Name":"เว็บคำศัพท์ Vocabulary",
+        "Title":"เว็บคำศัพท์ (ฝึกเขียน React และทำ Card)",
+         "TechStack":"HTML, CSS, Javascript, React",
+         "Url_Web":"https://vocabulary-react.onrender.com",
+         "Github":"https://github.com/Copper-Code/Vocabulary_React.git",
+         "image":"/vocabulary.png"
+    },
+    {
+        "id":4,
+        "Name":"เว็บแปลงเลขฐาน",
+        "Title":"เว็บแปลงเลขฐาน 2,8,10,16",
+         "TechStack":"HTML, CSS, Javascript",
+         "Url_Web":"https://math-89xk.onrender.com",
+         "Github":"https://github.com/Copper-Code/math.git",
+         "image":"/Number.png"
+    },
+    {
+        "id":5,
+        "Name":"เว็บบริหารทะเบียนครุภัณฑ์",
+        "Title":"เว็บสำหรับบริหารงานพัสดุ",
+         "TechStack":"HTML, CSS, Javascript, React, Bootstrap, NodeJS, MySql*ยังไม่ได้ Deploy",
+         "Url_Web":"",
+         "Github":"",
+         "image":"equipment2.png"
+    }
+        
+
+    ]
+}

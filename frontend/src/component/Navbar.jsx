@@ -1,5 +1,5 @@
 
-import './Navbar.css'; // นำเข้า Navbar.css สำหรับการตกแต่ง
+import './navbar.css'; // นำเข้า Navbar.css สำหรับการตกแต่ง
 import { Link } from 'react-router-dom';
 
 function Navbar() {

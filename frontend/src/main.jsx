@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from './Pages/Home';
-import ErrorPage from './Pages/errorPage';
+import ErrorPage from './Pages/ErrorPage';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import './index.css';

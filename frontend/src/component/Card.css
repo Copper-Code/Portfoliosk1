@@ -34,7 +34,7 @@ height: 360px;
   width: 100%;
   max-width: 150px;
   width: auto;
-  objectfit: cover;
+  object-fit: cover;
   border-radius: 10px;
 }
 .titleskill {

@@ -19,7 +19,7 @@ function Head() {
                  
         </div>
           <div className="flex-shrink-0">
-          <img src='./public/Copper.jpg' alt="Copper" className="profile"/>
+          <img src='/Copper.jpg' alt="Copper" className="profile"/>
         </div>
       </div>
     </div>

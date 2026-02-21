@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
 import './Card.css'
 function ProjectCard({ propsItem }) {
   console.log(propsItem.image);

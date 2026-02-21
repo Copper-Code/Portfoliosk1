@@ -41,7 +41,7 @@ function Home() {
         </section>
 
         <section>
-          <h2 className="text-center fw-bold mb-4">Projects</h2>
+          <h2 className="text-center fw-bold mt-5 mb-5">Projects</h2>
           <div className="app-body">{projectElements}</div>
         </section>
       </Stack>

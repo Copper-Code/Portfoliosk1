@@ -1,16 +1,19 @@
 :root{
     --primary-color:#2563EB;
 }
+* {
+  box-sizing: border-box;
+}
 .profile{
     width: 30vw;
     max-width: 400px;
     min-width: 150px;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .header{
-    padding:50px;
-
+  padding:50px;
   background-color: #ffffff;
 }
 .nickname{

@@ -15,9 +15,27 @@ height: 360px;
   justify-content: center;
   gap: 8px;
   padding: 10px;
+}
+@media (max-width: 768px){ 
+  .CardSkill {
+  height: 295px;
+  width: 15rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px;
+  }
+.imageskill {
+  height: 5vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 
 }
+
 .imageCard {
   margin: 20px;
   width: 100%; /* ให้กว้างเต็มพื้นที่ของ Container ที่มันอยู่ */
@@ -40,5 +58,5 @@ height: 360px;
 .titleskill {
   background-color: blue;
   color: #fff;
-  margin-button: 10px;
+  margin-bottom: 10px;
 }

@@ -64,12 +64,7 @@ export const SkilCard = () => {
                   src="/Expressjs.png"
                   alt="Image"
                 />
-                <Card.Img
-                  className="imageskill"
-                  variant="top"
-                  src="/postman.png"
-                  alt="Image"
-                />
+
               </div>
             </Card.Body>
           </Card>
@@ -107,10 +102,13 @@ export const SkilCard = () => {
             <Card.Body>
               {/* <Card.Title className="text-center fw-bold mb-3  fs-4">Other</Card.Title> */}
               <Card.Text>
-                <Badge bg="primary" className="me-2 mb-2" style={{fontSize:"16px"}}>Microsoft Office</Badge>
-                <Badge bg="info" className="me-2 mb-2" style={{fontSize:"16px"}}>Canva</Badge>
-                <Badge bg="danger" className="me-2 mb-2" style={{fontSize:"16px"}}>Anydesk</Badge>
+                <Badge bg="warning" className="me-2 mb-2" style={{fontSize:"16px"}}>Postman</Badge>
+                <Badge bg="dark" className="me-2 mb-2" style={{fontSize:"16px"}}>Github</Badge>
+                  <Badge bg="primary" className="me-2 mb-2" style={{fontSize:"16px"}}>VS Code</Badge>
+                   <Badge bg="danger" className="me-2 mb-2" style={{fontSize:"16px"}}>Anydesk</Badge>
                 <Badge bg="secondary" className="me-2 mb-2" style={{fontSize:"16px"}}>Capcut</Badge>
+                <Badge bg="info" className="me-2 mb-2" style={{fontSize:"16px"}}>Canva</Badge>
+                  <Badge bg="primary" className="me-2 mb-2" style={{fontSize:"16px"}}>Microsoft Office</Badge>
                 
                 <Badge bg="dark" className="me-2 mb-2" style={{fontSize:"14px"}}>ลง Windows และติดตั้งโปรแกรม</Badge>
               </Card.Text>

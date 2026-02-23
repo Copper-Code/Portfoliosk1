@@ -5,7 +5,11 @@ import ProjectCard from "../component/ProjectCard";
 import { SkilCard } from "../component/SkilCard";
 import data from "../data/project.json";
 import Stack from "react-bootstrap/Stack";
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 function Home() {
   const projectElements = data.projects.map((item) => {
     return <ProjectCard key={item.id} propsItem={item} />;
@@ -16,23 +20,68 @@ function Home() {
     <>
       <Navbar />
       <Head />
-      <Stack gap={3}>
+      <Stack gap={4}>
         <section className="p-2 m-4">
-          <h2 className="text-center fw-bold mb-4">About</h2>
-          <p
-            className="text-center"
-            style={{ fontWeight: "bolder", fontSize: "clamp(10px, 3vw, 18px)" }}
-          >
-            "สวัสดีค่ะ ชื่อนางสาวสุธิดา ขำขุน (เบส) สำเร็จการศึกษาระดับปริญญาตรี
-            วิชาเอกวิทยาการคอมพิวเตอร์ (เว็บและโมบายเทคโนโลยี)
-            จากมหาวิทยาลัยสุโขทัยธรรมาธิราช
-            มีประสบการณ์การทำงานด้านพัสดุโรงพยาบาลภาครัฐ (จัดซื้อจัดจ้างผ่านระบบ
-            E-GP / ดูแลทะเบียนครุภัณฑ์), ดูแลเพจอสังหาริมทรัพย์,
-            งานบริการร้านกาแฟและแคชเชียร์ (ใช้ระบบ Gpos, Line และ Grab
-            ในการจัดการงานหน้าร้าน ทำสื่อประชาสัมพันธ์) ปัจจุบันสนใจงานด้าน IT
-            และพัฒนา Web Application
-            เพื่อออกแบบและพัฒนาระบบที่ตอบโจทย์การใช้งานของผู้ใช้ (User)"
-          </p>
+          <Container className="container-background">
+            <Row>
+              <Col sm={4}>
+                <h5 className="fw-bold mb-4">About</h5>
+                <div
+                  style={{
+                    fontSize: "clamp(10px, 3vw, 17px)",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  <p>นางสาวสุธิดา ขำขุน (เบส) </p>
+                  <p>3 ธันวาคม 2543 </p>
+                  <p>เพศ : หญิง</p>
+                  <p>298/3 หมู่ที่ 5 ต.สันผักหวาน อ.หางดง จ.เชียงใหม่</p>{" "}
+                  <p>เบอร์โทร : 062-156-0695</p>{" "}
+                </div>
+              </Col>
+              <Col sm={8}>
+                <section>
+                  <h5 className="fw-bold mb-4">Education</h5>
+                  <div
+                    style={{
+                      fontSize: "clamp(10px, 3vw, 17px)",
+                      paddingLeft: "10px",
+                    }}
+                  >
+                    <p>
+                      <span style={{ fontWeight: "bold" }}>
+                        2562-2564 ปวส.{" "}
+                      </span>{" "}
+                      สาขาคอมพิวเตอร์ธุรกิจ วิทยาลัยอาชีวศึกษานครสวรรค์{" "}
+                    </p>
+                    <p>
+                      <span style={{ fontWeight: "bold" }}>
+                        2564-2568 ปริญญาตรี{" "}
+                      </span>
+                      วิชาเอกวิทยาการคอมพิวเตอร์ วิชาเฉพาะ เว็บและโมบายเทคโนโลยี
+                      มหาวิทยาลัยสุโขทัยธรรมาธิราช{" "}
+                    </p>
+                  </div>
+                </section>
+                <Link to="/about">
+                <Button className="me-2" variant="primary">ประสบการณ์</Button></Link>
+                
+                <Button 
+                variant="dark"
+                href="https://github.com/Copper-Code"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github</Button>
+           
+
+
+
+     
+              </Col>
+            </Row>
+          </Container>
+
+        
         </section>
 
         <section>

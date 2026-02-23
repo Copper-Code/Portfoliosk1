@@ -34,17 +34,7 @@
          "Url_Web":"https://math-89xk.onrender.com",
          "Github":"https://github.com/Copper-Code/math.git",
          "image":"/Number.png"
-    },
-    {
-        "id":5,
-        "Name":"เว็บบริหารทะเบียนครุภัณฑ์",
-        "Title":"เว็บสำหรับบริหารงานพัสดุ",
-         "TechStack":"HTML, CSS, Javascript, React, Bootstrap, NodeJS, MySql*ยังไม่ได้ Deploy",
-         "Url_Web":"",
-         "Github":"",
-         "image":"equipment2.png"
     }
-        
 
     ]
 }
